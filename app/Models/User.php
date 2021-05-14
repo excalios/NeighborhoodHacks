@@ -20,11 +20,17 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'phone_number',
+        'province_id',
+        'regency_id',
+        'profile_image',
+        'education',
+        'id_card',
+        'nik'
     ];
 
     /**
      * The attributes that should be hidden for arrays.
-     *
      * @var array
      */
     protected $hidden = [

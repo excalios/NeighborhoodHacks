@@ -194,12 +194,12 @@
           <div class="col-xl-3 col-lg-4 col-md-4 col-12">
             <div class="single-product">
               <div class="product-img col" style="border: 1px solid rgba(0, 0, 0, 0.35); box-sizing: border-box; border-radius: 20px">
-                <a href="businessinfo.html">
+                <a href="{{ route('detail') }}">
                   <img src="assets/img/Product/4.png" class="img-fluid" />
                 </a>
               </div>
               <div class="product-content mt-3">
-                <h3><a href="businessinfo.html" style="font-weight: 600; font-size: 20px; color: #000000">Keripik Maicih</a></h3>
+                <h3><a href="{{ route('detail') }}" style="font-weight: 600; font-size: 20px; color: #000000">Keripik Maicih</a></h3>
                 <div class="product-price">
                   <span style="color: rgba(0, 0, 0, 0.38)">Culinary</span>
                   <p style="font-weight: 600">Cirebon</p>

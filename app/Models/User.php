@@ -21,7 +21,6 @@ class User extends Authenticatable
         'email',
         'password',
         'phone_number',
-        'province_id',
         'regency_id',
         'profile_image',
         'education',

@@ -19,12 +19,11 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('password');
             $table->string('phone_number', 15);
-            $table->unsignedTinyInteger('province_id');
             $table->unsignedTinyInteger('regency_id');
-            $table->string('profile_image');
-            $table->string('education');
-            $table->string('id_card');
-            $table->string('nik');
+            $table->string('profile_image')->nullable();
+            $table->string('education')->nullable();
+            $table->string('id_card')->nullable();
+            $table->string('nik')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

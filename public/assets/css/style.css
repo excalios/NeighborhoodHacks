@@ -1,0 +1,104 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  color: #000000;
+}
+
+/* Section */
+.statistics {
+  margin-top: 6rem;
+}
+
+/* End Section */
+
+/* Carousel */
+.carousel .carousel-indicators li {
+  background-color: gray;
+}
+
+.carousel .carousel-indicators li.active {
+  background-color: #99d79a;
+}
+
+.testimoni-image {
+  width: 336px;
+  height: 392px;
+  margin-bottom: 4rem;
+}
+
+.testimoni-text {
+  width: 400px;
+}
+
+/* End Carousel */
+
+/* Dashboard */
+.maintxt {
+  position: relative;
+}
+.maintxt > img,
+.overlay-text {
+  position: absolute;
+}
+
+.dashboard-jumbotron {
+  margin-top: 3rem;
+  height: 110px;
+}
+.category {
+  margin-top: 25rem;
+}
+.filter {
+  margin-left: 28rem;
+}
+
+.bussines {
+  margin-bottom: 5rem;
+}
+
+/* End Dashboard */
+
+.sidenav {
+  height: 100%;
+  width: 360px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #eef0d5;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Business Profile */
+
+.business-profile {
+  max-width: 800px;
+  margin-top: 5rem;
+  margin-left: 25rem;
+}
+
+.topsell {
+  max-width: 800px;
+  margin-top: 5rem;
+  margin-left: 25rem;
+}
+
+.company-profile {
+  max-width: 800px;
+  margin-top: 5rem;
+  margin-left: 25rem;
+}
+
+.financial-analysis {
+  max-width: 800px;
+  margin-top: 5rem;
+  margin-left: 25rem;
+}
+
+.businfo {
+  margin-left: 5rem;
+  margin-top: 5rem;
+}
+
+/* End Profile */
